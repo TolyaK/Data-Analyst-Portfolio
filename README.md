@@ -10,7 +10,7 @@
 
 *   **Аналитика:** SQL (PostgreSQL, Window Functions), Python (Pandas, NumPy), Excel (Pivot Tables, Financial Modeling).
 *   **Визуализация:** Microsoft Power BI, Figma (UI/UX for Dashboards).
-*   **Математика & Статистика:** Эконометрика, Теория вероятностей, Линейная регрессия.
+*   **Математика & Статистика:** Эконометрика, Математическая статистика, Линейная регрессия.
 *   **Инструменты:** Git, DBeaver, VS Code.
 
 ---
@@ -21,21 +21,18 @@
 
 | Название проекта | Описание | Стек |
 | :--- | :--- | :--- |
-| 🇧🇷 **[Olist E-Commerce Analytics](projects/Olist_Ecommerce)** | **Комплексный анализ маркетплейса (Full-Stack).** <br> Построил систему аналитики "с нуля" для 100k заказов. Спроектировал БД в PostgreSQL, настроил ETL-процесс, создал модель данных "Снежинка" и интерактивный дашборд для контроля логистики и продаж. | `SQL` `Power BI` `Figma` `ETL` |
-| 🇧🇾 **[Belarus Balance of Payments](projects/Macroeconomics_Analysis)** | *(В разработке)* **Макроэкономический анализ.** <br> Исследование торгового и платежного баланса страны. Построение регрессионных моделей для прогнозирования экономических показателей. | `Excel` `EViews` `Statistics` |
-| 🏦 **[Credit Scoring Model](projects/Credit_Scoring)** | *(В разработке)* **Риск-менеджмент.** <br> Разработка базовой скоринговой модели для оценки кредитоспособности заемщика на основе исторических данных. | `Python` `Pandas` |
+|**[Olist E-Commerce Analytics](projects/Olist_Ecommerce)** | **Комплексный анализ маркетплейса.** <br> Построил систему аналитики "с нуля" для 100 000 заказов. Спроектировал БД в PostgreSQL, настроил ETL-процесс, создал модель данных "Star Schema" и интерактивный дашборд для контроля логистики и продаж. | `SQL` `Power BI` `Figma` `ETL` |
 
 ---
 
-### 🎓 Образование и сертификаты
+### 🎓 Образование
 
-*   **Бакалавриат «Экономическая безопасность»** (3-ий курс) — [БГУ]
-    *   *Специализация:* Эконометрика, Корпоративные финансы, Статистика.
-*   **SQL & Python for Data Science** — Stepik / Kaggle
+*   **Бакалавриат «Экономическая безопасность»** (3-ий курс) — БГУ, Минск
+    *   *Специализация:* Экономический анализ, Финансовое право, Учет, Контроль, Противодействие угрозам.
 
 ---
 
 ### 📫 Связаться со мной
 
 [<img src='https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' />](https://www.linkedin.com/in/anatolykonoshonok/) 
-[<img src='https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white' />](mailto:ТВОЯ_ПОЧТА)
+[<img src='https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white' />](mailto:konoshonok.work@gmail.com)
