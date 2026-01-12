@@ -9,6 +9,8 @@ CREATE TABLE orders (
 	order_delivered_customer_date TIMESTAMP,
 	order_estimated_delivery_date TIMESTAMP
 );
+
+
 -- 2. Таблица клиентов
 CREATE TABLE customers (
 	customer_id VARCHAR(50) PRIMARY KEY,
@@ -17,6 +19,8 @@ CREATE TABLE customers (
 	customer_city VARCHAR(100),
 	customer_state VARCHAR(5)
 );
+
+
 -- 3. Таблица деталей заказов
 CREATE TABLE order_items (
 	order_id VARCHAR(50),
@@ -27,6 +31,8 @@ CREATE TABLE order_items (
 	price DECIMAL(10, 2),
 	freight_value decimal(10, 2)
 );
+
+
 -- 4. Таблица платежей 
 CREATE TABLE order_payments (
 	order_id VARCHAR(50),
@@ -35,6 +41,8 @@ CREATE TABLE order_payments (
 	payment_installments INT,
 	payment_value DECIMAL(10, 2)
 );
+
+
 -- 5. Таблица отзывов
 CREATE TABLE order_reviews (
 	review_id VARCHAR(50),
@@ -45,6 +53,8 @@ CREATE TABLE order_reviews (
 	review_creation_date TIMESTAMP,
 	review_answer_timestamp TIMESTAMP
 );
+
+
 -- 6. Таблица товаров
 CREATE TABLE products (
 	product_id VARCHAR(50) PRIMARY KEY,
@@ -57,6 +67,8 @@ CREATE TABLE products (
 	product_height_cm INT,
 	product_width_cm INT
 );
+
+
 -- 7. Таблица продавцов 
 CREATE TABLE sellers (
 	seller_id VARCHAR(50) PRIMARY KEY,
@@ -64,6 +76,8 @@ CREATE TABLE sellers (
 	seller_city VARCHAR(100),
 	seller_state VARCHAR(5)
 );
+
+
 -- 8. Таблица геопозиции
 CREATE TABLE geolocation (
 	geolocation_zip_code_prefix VARCHAR(10),
@@ -72,6 +86,8 @@ CREATE TABLE geolocation (
 	geolocation_city VARCHAR(100),
 	geolocation_state VARCHAR(5)
 );
+
+
 -- 9. Таблица перевода категорий
 CREATE TABLE category_translation (
 	product_category_name VARCHAR(100),
